@@ -1,5 +1,5 @@
-REPLACE INTO `creature_template` (entry,modelid1,name,subname,minlevel,maxlevel,faction,scale, mindmg, maxdmg, BaseAttackTime,RangeAttackTime,mingold,maxgold,AIName,InhabitType,HoverHeight,Health_Mod,Mana_Mod,Armor_Mod) VALUES
- (400400,24942,"Consur","Lord of the Shadow",83,83,14,2,4000,8000,2000,2200,10000000,10000000,"SmartAI",3,1,15000,15000,15000);
+REPLACE INTO `creature_template` (entry,modelid1,name,subname,minlevel,maxlevel,faction,scale, damagemodifier, BaseAttackTime,RangeAttackTime,mingold,maxgold,AIName,InhabitType,HoverHeight,HealthModifier,ManaModifier,ArmorModifier) VALUES
+ (400400,24942,"Consur","Lord of the Shadow",83,83,14,2,50,1800,2000,10000000,10000000,"SmartAI",3,1,15000,15000,15000);
 
 REPLACE INTO `creature_text`  (entry,groupid,id,text,type,language,probability,emote,duration,sound,comment) VALUES 
 (400400,1,0,'Interlopers! You mortals who dare to interfere with my sport will pay... Wait--you... I remember you...',14,0,100,1,0,17457,'Comment'),
