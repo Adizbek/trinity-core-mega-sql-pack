@@ -1,6 +1,6 @@
-REPLACE INTO `creature_template` (entry,modelid1,name,subname,minlevel,maxlevel,faction,scale, mindmg, maxdmg, BaseAttackTime,RangeAttackTime,mingold,maxgold,AIName,InhabitType,HoverHeight,Health_Mod,Mana_Mod,Armor_Mod) VALUES
- (970000,23344,"Arctus","Lord of the Blizzard",83,83,14,0.4,8000,16000,2000,2200,10000000,10000000,"SmartAI",3,1,40000,40000,15000);
-
+REPLACE INTO `creature_template` (entry,modelid1,name,subname,minlevel,maxlevel,faction,scale, damagemodifier, BaseAttackTime,RangeAttackTime,mingold,maxgold,AIName,InhabitType,HoverHeight,HealthModifier,ManaModifier,ArmorModifier) VALUES
+ (970000,23344,"Arctus","Lord of the Blizzard",83,83,14,0.4,8000,2000,2200,10000000,10000000,"SmartAI",3,1,40000,40000,15000);
+ 
 REPLACE INTO `creature_text`   (entry,groupid,id,text,type,language,probability,emote,duration,sound) VALUES
  (970000, 1, 0, 'You puny humanoids will die by my fist for entering my domain!', 14, 0, 100, 5, 0, 0),
  (970000, 2, 0, 'RAGHHHHHH!!!!! YOU SHALL NOT DEFEAT ME!!!!!', 14, 0, 100, 5, 0, 0),
